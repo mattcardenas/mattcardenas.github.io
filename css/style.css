@@ -26,6 +26,7 @@
     }
     
     header nav {
+        text-transform: uppercase;
         float: right;
         margin-top: 10px;
         margin-right: 35%;
@@ -44,7 +45,7 @@
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
-        background: url('../img/splash-evox.jpg') no-repeat center;
+        background: linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/splash-evox.jpg') no-repeat center;
         padding: 200px 0;
         text-align: center;
         color: #fff;
@@ -59,14 +60,17 @@
     #splash h2 {
         font-size: 4em;
         margin-bottom: px;
-        font-weight: bold;
+        font-weight: ;
     }
     
     #splash p {
-        margin-top: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
-    #splash a {}
+    #splash a {
+        ;
+    }
     
     #about-group {
         margin-left: 20px;
@@ -126,5 +130,26 @@
     }
     
     .package p {
+        margin: 10px 20px 15px 20px;
+    }
+    
+    #all-location {}
+    
+    .location {
+        border-top: ;
+        height: 350px;
+        width: 50%;
+        text-align: center;
+        float: left;
+        margin-bottom: 30px;
+        padding-top: 5px;
+    }
+    
+    .location img {
+        width: 40%;
+    }
+    
+    .location p {
+        text-align: center;
         margin: 10px 20px 15px 20px;
     }
