@@ -1,60 +1,126 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-.clear-fix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-header {
-    background-color: #000047;
-    padding: 10px;
-}
-
-header h1 {
-    text-transform: uppercase;
-    font-size: 2em;
-    float: left;
-    color: #fff;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-    margin-right: 35%;
-}
-
-header a {
-    text-decoration: none;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #fff;
-    font-weight: bold;
-}
-
-#splash {
-    background: url('../img/splash-evox.jpg') no-repeat center;
-    padding: 200px 0;
-    text-align: center;
-    color: #fff;
-    height: 200px;
-}
-
-#splash div {
-    height: ;
-    margin-bottom: px;
-}
-
-#splash h2 {
-    font-size: 4em;
-    margin-bottom: px;
-    font-weight: bold;
-}
-
-#splash p {
-    margin-top: 150px;
-}
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    
+    .clear-fix:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    
+    header {
+        background-color: #000047;
+        padding: 10px;
+    }
+    
+    header h1 {
+        text-transform: uppercase;
+        font-size: 2em;
+        float: left;
+        color: #fff;
+    }
+    
+    header nav {
+        float: right;
+        margin-top: 10px;
+        margin-right: 35%;
+    }
+    
+    header a {
+        text-decoration: none;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #fff;
+        font-weight: ;
+    }
+    
+    #splash {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background: url('../img/splash-evox.jpg') no-repeat center;
+        padding: 200px 0;
+        text-align: center;
+        color: #fff;
+        height: 200px;
+    }
+    
+    #splash div {
+        height: ;
+        margin-bottom: px;
+    }
+    
+    #splash h2 {
+        font-size: 4em;
+        margin-bottom: px;
+        font-weight: bold;
+    }
+    
+    #splash p {
+        margin-top: 150px;
+    }
+    
+    #splash a {}
+    
+    #about-group {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        height: 400px;
+    }
+    
+    #about-img {
+        width: 33%;
+        float: left;
+        width: 620px;
+        height: 400px;
+    }
+    
+    #about-text {
+        text-align: center;
+        width: 550px;
+        padding-top: 140px;
+        margin-left: 650px;
+    }
+    
+    #about-text h2 {
+        font-size: 1.5em;
+        font-family: ;
+        font-style: ;
+        font-weight: bold;
+        margin-bottom: 20px
+    }
+    
+    .package {
+        border-top: ;
+        height: 350px;
+        width: 25%;
+        text-align: center;
+        float: left;
+        margin-bottom: 30px;
+        padding-top: 5px;
+    }
+    
+    #cobbway-img {
+        height: 100px;
+        width: 80%;
+        padding-top: 30px;
+    }
+    
+    .package img {
+        width: 40%;
+    }
+    
+    .package h3 {
+        font-size: 1.5em;
+        font-family: ;
+        font-style: ;
+        font-weight: bold;
+    }
+    
+    .package p {
+        margin: 10px 20px 15px 20px;
+    }
