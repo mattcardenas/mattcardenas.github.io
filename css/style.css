@@ -30,6 +30,11 @@ hr.style-one {
     text-transform: uppercase;
 }
 
+.button:hover {
+    background-color: #fff;
+    color: #000047;
+}
+
 header {
     position: fixed;
     top: 0px;
